@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web UI Clones</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+        background: #f4f5f7;
+        color: #1f2328;
+      }
+
+      header {
+        padding: 48px 16px 24px;
+        text-align: center;
+      }
+
+      header h1 {
+        margin: 0 0 8px;
+        font-size: 2rem;
+      }
+
+      header p {
+        margin: 0;
+        color: #57606a;
+      }
+
+      .apps {
+        list-style: none;
+        margin: 0 auto;
+        padding: 0 16px 48px;
+        max-width: 1000px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 16px;
+      }
+
+      .apps a {
+        display: block;
+        height: 100%;
+        padding: 18px;
+        background: #fff;
+        border: 1px solid #d0d7de;
+        border-radius: 10px;
+        color: inherit;
+        text-decoration: none;
+        transition: border-color 0.15s, transform 0.15s;
+      }
+
+      .apps a:hover,
+      .apps a:focus-visible {
+        border-color: #0969da;
+        transform: translateY(-2px);
+      }
+
+      .apps h2 {
+        margin: 0 0 6px;
+        font-size: 1.1rem;
+        color: #0969da;
+      }
+
+      footer {
+        padding: 0 16px 32px;
+        text-align: center;
+        font-size: 0.85rem;
+        color: #57606a;
+      }
+
+      .apps p {
+        margin: 0;
+        font-size: 0.95rem;
+        color: #57606a;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Web UI Clones</h1>
+      <p>Three front-end study clones in plain HTML, CSS and JavaScript.</p>
+    </header>
+    <ul class="apps">
+      <li>
+        <a href="amazon/">
+          <h2>Amazon</h2>
+          <p>A shopping site home page with a responsive grid of category boxes.</p>
+        </a>
+      </li>
+      <li>
+        <a href="instagram/">
+          <h2>Instagram</h2>
+          <p>A feed with stories, multi-image posts and a light/dark theme.</p>
+        </a>
+      </li>
+      <li>
+        <a href="netflix/">
+          <h2>Netflix</h2>
+          <p>A streaming service landing page with an FAQ accordion.</p>
+        </a>
+      </li>
+    </ul>
+    <footer>Study clones, not affiliated with Amazon, Meta or Netflix.</footer>
+  </body>
+</html>

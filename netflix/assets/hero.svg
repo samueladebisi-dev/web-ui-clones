@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <!-- A wall of tilted placeholder posters, drawn for this clone. -->
+  <defs>
+    <linearGradient id="a" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7a1d2e"/><stop offset="1" stop-color="#2b0a12"/></linearGradient>
+    <linearGradient id="b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d4e7a"/><stop offset="1" stop-color="#0a1a2b"/></linearGradient>
+    <linearGradient id="c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7a5a1d"/><stop offset="1" stop-color="#2b1f0a"/></linearGradient>
+    <linearGradient id="d" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2e7a5c"/><stop offset="1" stop-color="#0a2b1f"/></linearGradient>
+    <linearGradient id="e" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5c2e7a"/><stop offset="1" stop-color="#1f0a2b"/></linearGradient>
+    <pattern id="wall" width="750" height="300" patternUnits="userSpaceOnUse">
+      <rect x="10" y="10" width="130" height="190" rx="6" fill="url(#a)"/>
+      <rect x="160" y="10" width="130" height="190" rx="6" fill="url(#b)"/>
+      <rect x="310" y="10" width="130" height="190" rx="6" fill="url(#c)"/>
+      <rect x="460" y="10" width="130" height="190" rx="6" fill="url(#d)"/>
+      <rect x="610" y="10" width="130" height="190" rx="6" fill="url(#e)"/>
+      <rect x="85" y="215" width="130" height="190" rx="6" fill="url(#d)"/>
+      <rect x="235" y="215" width="130" height="190" rx="6" fill="url(#e)"/>
+      <rect x="385" y="215" width="130" height="190" rx="6" fill="url(#a)"/>
+      <rect x="535" y="215" width="130" height="190" rx="6" fill="url(#b)"/>
+      <rect x="685" y="215" width="130" height="190" rx="6" fill="url(#c)"/>
+      <rect x="-65" y="215" width="130" height="190" rx="6" fill="url(#c)"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="#111"/>
+  <g transform="rotate(-12 800 450)"><rect x="-600" y="-600" width="2800" height="2100" fill="url(#wall)"/></g>
+</svg>

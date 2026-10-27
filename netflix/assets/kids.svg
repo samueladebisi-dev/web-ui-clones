@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <rect x="60" y="60" width="520" height="360" rx="16" fill="#1d1d1d"/>
+  <g font-family="Poppins, sans-serif" font-size="22" fill="#fff" text-anchor="middle">
+    <g><rect x="110" y="140" width="120" height="120" rx="12" fill="#f5a623"/><circle cx="150" cy="190" r="8" fill="#222"/><circle cx="190" cy="190" r="8" fill="#222"/><path d="M145 222q25 22 50 0" stroke="#222" stroke-width="6" fill="none" stroke-linecap="round"/><text x="170" y="295">Ada</text></g>
+    <g><rect x="260" y="140" width="120" height="120" rx="12" fill="#2e7a5c"/><circle cx="300" cy="190" r="8" fill="#fff"/><circle cx="340" cy="190" r="8" fill="#fff"/><path d="M295 222q25 22 50 0" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round"/><text x="320" y="295">Tobi</text></g>
+    <g><rect x="410" y="140" width="120" height="120" rx="12" fill="#1d4e7a"/><circle cx="450" cy="190" r="8" fill="#fff"/><circle cx="490" cy="190" r="8" fill="#fff"/><path d="M445 222q25 22 50 0" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round"/><text x="470" y="295">Kids</text></g>
+    <text x="320" y="110" font-size="30" font-weight="600">Who's watching?</text>
+  </g>
+</svg>

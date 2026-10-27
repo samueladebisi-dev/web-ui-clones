@@ -1,0 +1,14 @@
+{
+  "name": "web-ui-clones",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node tests/serve.mjs",
+    "test": "node tests/smoke.mjs && node tests/interactions.mjs",
+    "test:smoke": "node tests/smoke.mjs",
+    "test:interactions": "node tests/interactions.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.0"
+  }
+}

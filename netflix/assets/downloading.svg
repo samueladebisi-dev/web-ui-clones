@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <circle cx="24" cy="24" r="18" fill="none" stroke="#333" stroke-width="5"/>
+  <circle cx="24" cy="24" r="18" fill="none" stroke="#0071eb" stroke-width="5" stroke-linecap="round" stroke-dasharray="113" stroke-dashoffset="113" transform="rotate(-90 24 24)">
+    <animate attributeName="stroke-dashoffset" values="113;0" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M24 15v15m-6-6 6 6 6-6" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
