@@ -37,7 +37,7 @@ npm test
 
 - **Smoke test** (`tests/smoke.mjs`): opens the gallery and each clone, and fails on uncaught errors, console errors, or a reference to a local file that doesn't exist. It lists every outside host a page contacts, so a hotlinked image would show up, and checks that the gallery links to every clone.
 - **Interaction checks** (`tests/interactions.mjs`):
-  - Amazon: no sideways scrolling at 1280, 800 and 390 pixels wide, with four, two and one category boxes per row.
+  - Amazon: no sideways scrolling at 1280, 800, 390 and 320 pixels wide, with four, two, one and one category boxes per row.
   - Instagram: dark mode survives a reload (and so does switching back), and the stories arrows scroll the strip and appear only when there is somewhere to scroll.
   - Netflix: an FAQ answer opens and closes, its plus icon turns into a cross, and the other answers stay closed.
 
@@ -56,7 +56,7 @@ The clones began as existing study projects. This version reworks them into a te
 
 - **Own artwork instead of brand images.** The Netflix clone hotlinked its pictures and videos from Netflix's servers, and the Amazon clone shipped Amazon's logo and product photos. Both now use SVG drawings in their `assets/` folders, as does Instagram in place of its logo image. The logos are styled text.
 - **Inline icons.** Netflix loaded a paid Font Awesome kit and Amazon loaded Font Awesome from a CDN; both now use small inline SVG icons.
-- **Responsive Amazon page.** It had no small-screen styles. It now has tablet and phone layouts, square category images, and "See more" links that are no longer cut off under two-line headings.
+- **Responsive Amazon page.** It had no small-screen styles. It now has tablet and phone layouts (down to 320 pixels wide), square category images, and "See more" links that are no longer cut off under two-line headings.
 - **Netflix FAQ.** The accordion script was rewritten to use `aria-expanded`, so screen readers know whether an answer is open, and the icon is animated in CSS.
 - **Cleanup.**
   - Copied copyright lines for Amazon and Instagram were replaced with a not-affiliated note.

@@ -340,6 +340,11 @@ ul p {
     width: 45%;
     padding-left: 16px;
   }
+  /* Footer links set in <pre> don't wrap; let long ones ("Content and
+     Devices") break onto two lines on the narrowest phones. */
+  .foot-panel2 pre {
+    white-space: pre-wrap;
+  }
   .foot-panel4 {
     height: auto;
     padding-bottom: 16px;

@@ -6,11 +6,12 @@ import { startServer } from './serve.mjs';
 
 const checks = {
   // HTML/CSS only, so check the layout instead: no sideways scrolling at
-  // phone or desktop width, and the shop boxes go from four per row to one.
+  // phone (390px and 320px) or desktop width, and the shop boxes go from four
+  // per row to one.
   async amazon(page) {
     const rowCount = () =>
       page.locator('.box').evaluateAll((boxes) => new Set(boxes.map((b) => b.offsetTop)).size);
-    for (const [width, perRow] of [[1280, 4], [800, 2], [390, 1]]) {
+    for (const [width, perRow] of [[1280, 4], [800, 2], [390, 1], [320, 1]]) {
       await page.setViewportSize({ width, height: 800 });
       const scroll = await page.evaluate(() => document.documentElement.scrollWidth);
       if (scroll > width) throw new Error(`${width}px: page is ${scroll}px wide`);
