@@ -50,6 +50,8 @@ npm run test:interactions -- instagram
 
 If you already have a Chromium build, you can point the tests at it instead of installing one: `CHROMIUM_PATH=/path/to/chrome npm test`.
 
+GitHub Actions runs `npm test` on every push to `main` and on every pull request (`.github/workflows/test.yml`).
+
 ## What changed in this version
 
 The clones began as existing study projects. This version reworks them into a tested collection:
